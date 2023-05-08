@@ -1,6 +1,6 @@
 <?php
-require_once('./class/Block.php');
-require_once('./class/Chain.php');
+require('./class/Block.php');
+require('./class/Chain.php');
 
 $b1 = new b(1, new DateTime(), "Varnsdorf", "0");
 $b2 = new b(2, new DateTime(), "Rumburk", $b1->generateHash());
